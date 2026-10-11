@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TomaDo · Support & Privacy</title>
+<meta name="description" content="Support and privacy policy for TomaDo (番茄任务), a pomodoro timer for your to-dos.">
+<style>
+  :root {
+    --bg: #FFF7F1; --card: #FFFFFF; --ink: #1F2026; --sub: #5C5F69;
+    --accent: #C23A2E; --line: #EADFD6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1A1A1D; --card: #242428; --ink: #F2F2F4; --sub: #A9ABB3; --accent: #FF7A6B; --line: #34343A; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", "Noto Sans SC", sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  header svg { flex: none; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0; }
+  .tag { color: var(--sub); margin: 2px 0 0; }
+  nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 24px 0 32px; }
+  nav a {
+    color: var(--accent); text-decoration: none; border: 1px solid var(--line);
+    background: var(--card); padding: 6px 14px; border-radius: 999px; font-size: 14px;
+  }
+  section {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 24px; margin-bottom: 20px;
+  }
+  h2 { font-size: 20px; margin: 0 0 12px; }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--sub); font-size: 14px; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  a { color: var(--accent); }
+  .contact {
+    display: inline-block; margin-top: 4px; font-weight: 600; word-break: break-all;
+  }
+  footer { text-align: center; color: var(--sub); font-size: 13px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg width="56" height="56" viewBox="0 0 240 240" aria-hidden="true">
+      <rect width="240" height="240" rx="54" fill="#FFF3EA"/>
+      <circle cx="120" cy="134" r="78" fill="#E5483B"/>
+      <rect x="117" y="40" width="6" height="22" rx="3" fill="#2F6E45"/>
+      <path d="M120 60 C110 50 95 50 88 56 C100 58 108 62 112 66 C104 70 98 78 98 86 C108 80 115 74 120 70 C125 74 132 80 142 86 C142 78 136 70 128 66 C132 62 140 58 152 56 C145 50 130 50 120 60 Z" fill="#3E8E5A"/>
+      <path d="M90 138 L112 160 L152 116" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div>
+      <h1>TomaDo · 番茄任务</h1>
+      <p class="tag">Pomodoro timer for your to-dos</p>
+    </div>
+  </header>
+
+  <nav aria-label="Sections">
+    <a href="#support">Support</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#zh-support">支持</a>
+    <a href="#zh-privacy">隐私政策</a>
+  </nav>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>Questions, bug reports or feature ideas? Email us and we'll reply within a few days.</p>
+    <a class="contact" href="mailto:barenotesupport@gmail.com">barenotesupport@gmail.com</a>
+
+    <h3>How do I start a pomodoro?</h3>
+    <p>Tap <strong>+</strong> on the left to add a task, tap the task to select it, then press play.</p>
+    <h3>Can I change the focus or break length?</h3>
+    <p>Yes. Open Settings (gear icon, bottom left). Focus can be 1–120 minutes and break 1–60 minutes.</p>
+    <h3>Why didn't I hear the alert?</h3>
+    <p>When the app is in the background or the phone is locked, alerts come as notifications. Make sure notifications are allowed in iPhone Settings → TomaDo, and check your silent switch and Focus mode.</p>
+    <h3>How do I edit or delete a task?</h3>
+    <p>Swipe left on the task. Deleting a task also removes its focus history.</p>
+    <h3>Is my data backed up?</h3>
+    <p>Your data is stored only on your device. Deleting the app deletes all tasks and history.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="muted">Effective: October 11, 2026</p>
+    <p>TomaDo does not collect, upload or share any personal data.</p>
+    <ul>
+      <li>Your tasks and focus history are stored only on your device. The developer cannot see them.</li>
+      <li>No account, no ads, and no analytics or third-party tracking.</li>
+      <li>Notifications are local and only used to tell you when a pomodoro or break ends.</li>
+      <li>Deleting a task deletes its focus history. Deleting the app removes all data.</li>
+    </ul>
+    <p>Questions? Contact <a href="mailto:barenotesupport@gmail.com">barenotesupport@gmail.com</a>.</p>
+  </section>
+
+  <section id="zh-support" lang="zh-Hans">
+    <h2>技术支持</h2>
+    <p>有问题、发现 bug 或有功能建议，欢迎发邮件，我们会在几天内回复。</p>
+    <a class="contact" href="mailto:barenotesupport@gmail.com">barenotesupport@gmail.com</a>
+
+    <h3>怎么开始一个番茄？</h3>
+    <p>点左边的 <strong>＋</strong> 添加任务，点一下任务选中它，再按播放键。</p>
+    <h3>可以改番茄和休息的时长吗？</h3>
+    <p>可以。打开左下角的设置，专注可设 1–120 分钟，休息可设 1–60 分钟。</p>
+    <h3>为什么没听到提示音？</h3>
+    <p>App 在后台或锁屏时，提醒以系统通知的方式出现。请在「设置 → TomaDo」里允许通知，并检查静音键和专注模式。</p>
+    <h3>怎么修改或删除任务？</h3>
+    <p>在任务上向左滑。删除任务会同时删除它的专注记录。</p>
+    <h3>数据会备份吗？</h3>
+    <p>数据只保存在你的设备上。删除 App 会清除全部任务和记录。</p>
+  </section>
+
+  <section id="zh-privacy" lang="zh-Hans">
+    <h2>隐私政策</h2>
+    <p class="muted">生效日期：2026 年 10 月 11 日</p>
+    <p>TomaDo 不收集、不上传、不分享任何个人数据。</p>
+    <ul>
+      <li>你创建的任务和专注记录只保存在你自己的设备上，开发者无法查看。</li>
+      <li>App 不需要注册账号，不包含广告，不使用任何统计分析或第三方追踪工具。</li>
+      <li>通知权限只用于在番茄或休息结束时提醒你，全部是设备本地通知。</li>
+      <li>删除任务会同时删除它的专注记录；删除 App 会清除全部数据。</li>
+    </ul>
+    <p>如有问题，请联系 <a href="mailto:barenotesupport@gmail.com">barenotesupport@gmail.com</a>。</p>
+  </section>
+
+  <footer>© 2026 TomaDo</footer>
+</main>
+</body>
+</html>
